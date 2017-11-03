@@ -37,33 +37,33 @@ mock.config_class=
 #############################################################################
 # parameters
 #############################################################################
-acq.server_host=localhost
+#acq.server_host=localhost
 #acq.server_host=172.30.6.27
 #acq.server_host=192.168.1.1
-#acq.server_host=172.30.6.26
+acq.server_host=172.30.6.26
 
 # none, comedi, ni
-acq.driver_name=none
-#acq.driver_name=comedi
+#acq.driver_name=none
+acq.driver_name=comedi
 
-#console.host=172.30.6.26
+console.host=172.30.6.26
 #console.host=192.168.1.1
-console.host=localhost
+#console.host=localhost
 
 console.eye_simulation=true
 #console.eye_simulation=false
 
-experiment.host=localhost
+#experiment.host=localhost
 #experiment.host=192.168.1.2
-#experiment.host=172.30.6.25
+experiment.host=172.30.6.25
 
 # bind experiment thread to CPU # 0, 1, 2, or 3
 experiment.cpu=0
-experiment.monkey_window_fullscreen=false
-#experiment.monkey_window_fullscreen=true
+#experiment.monkey_window_fullscreen=false
+experiment.monkey_window_fullscreen=true
 
-#experiment.acq_offline=false
-experiment.acq_offline=true
+experiment.acq_offline=false
+#experiment.acq_offline=true
 
 # this is for classic experiment.
 # choice experiment is always mark_every_step

@@ -7,7 +7,7 @@
 #
 # Host: 172.30.6.27 (MySQL 5.7.11-log)
 # Database: ram_train
-# Generation Time: 2017-10-30 18:31:26 +0000
+# Generation Time: 2017-11-03 16:48:36 +0000
 # ************************************************************
 
 
@@ -334,54 +334,9 @@ VALUES
 	('xper_rds_background_color',1,1097009302112331,'0.2'),
 	('xper_rds_background_color',2,1097009302112331,'0.2'),
 	('xper_rds_background_size',0,1097009302112331,'100'),
-	('xper_left_iscan_eye_zero',0,1509371429685840,'0.0'),
-	('xper_left_iscan_eye_zero',1,1509371429685840,'0.0'),
-	('xper_right_iscan_eye_zero',0,1509371429685840,'0.0'),
-	('xper_right_iscan_eye_zero',1,1509371429685840,'0.0'),
-	('xper_left_iscan_eye_zero',0,1509371506726228,'0.0'),
-	('xper_left_iscan_eye_zero',1,1509371506726228,'0.0'),
-	('xper_right_iscan_eye_zero',0,1509371506726228,'0.0'),
-	('xper_right_iscan_eye_zero',1,1509371506726228,'0.0'),
-	('xper_left_iscan_eye_zero',0,1509374171621597,'0.8195188719761304'),
-	('xper_left_iscan_eye_zero',1,1509374171621597,'0.04156779404043624'),
-	('xper_right_iscan_eye_zero',0,1509374171621597,'0.8195188719761304'),
-	('xper_right_iscan_eye_zero',1,1509374171621597,'0.04156779404043624'),
-	('xper_left_iscan_eye_zero',0,1509374673351598,'0.5002829299428286'),
-	('xper_left_iscan_eye_zero',1,1509374673351598,'-0.41284542792904033'),
-	('xper_right_iscan_eye_zero',0,1509374673351598,'0.5002829299428286'),
-	('xper_right_iscan_eye_zero',1,1509374673351598,'-0.41284542792904033'),
-	('xper_left_iscan_eye_zero',0,1509374913843422,'1.2129293993567838'),
-	('xper_left_iscan_eye_zero',1,1509374913843422,'-0.35339007856756627'),
-	('xper_right_iscan_eye_zero',0,1509374913843422,'1.2129293993567838'),
-	('xper_right_iscan_eye_zero',1,1509374913843422,'-0.35339007856756627'),
-	('xper_left_iscan_eye_zero',0,1509375213950371,'1.1144423358600017'),
-	('xper_left_iscan_eye_zero',1,1509375213950371,'-0.718829625317781'),
-	('xper_right_iscan_eye_zero',0,1509375213950371,'1.1144423358600017'),
-	('xper_right_iscan_eye_zero',1,1509375213950371,'-0.718829625317781'),
-	('xper_left_iscan_eye_zero',0,1509375697192837,'1.1144423358600017'),
-	('xper_left_iscan_eye_zero',1,1509375697192837,'-0.718829625317781'),
-	('xper_right_iscan_eye_zero',0,1509375697192837,'1.1144423358600017'),
-	('xper_right_iscan_eye_zero',1,1509375697192837,'-0.718829625317781'),
-	('xper_left_iscan_eye_zero',0,1509375727239276,'1.1144423358600017'),
-	('xper_left_iscan_eye_zero',1,1509375727239276,'-0.718829625317781'),
-	('xper_right_iscan_eye_zero',0,1509375727239276,'1.1144423358600017'),
-	('xper_right_iscan_eye_zero',1,1509375727239276,'-0.718829625317781'),
-	('xper_left_iscan_eye_zero',0,1509375882489017,'1.1144423358600017'),
-	('xper_left_iscan_eye_zero',1,1509375882489017,'-0.718829625317781'),
-	('xper_right_iscan_eye_zero',0,1509375882489017,'1.1144423358600017'),
-	('xper_right_iscan_eye_zero',1,1509375882489017,'-0.718829625317781'),
-	('xper_left_iscan_eye_zero',0,1509376012879613,'1.2287972925762964'),
-	('xper_left_iscan_eye_zero',1,1509376012879613,'-0.9130344431186932'),
-	('xper_right_iscan_eye_zero',0,1509376012879613,'1.2287972925762964'),
-	('xper_right_iscan_eye_zero',1,1509376012879613,'-0.9130344431186932'),
-	('xper_left_iscan_eye_zero',0,1509388060331344,'1.135555102283491'),
-	('xper_left_iscan_eye_zero',1,1509388060331344,'-1.8881195780597473'),
-	('xper_right_iscan_eye_zero',0,1509388060331344,'1.135555102283491'),
-	('xper_right_iscan_eye_zero',1,1509388060331344,'-1.8881195780597473'),
-	('xper_left_iscan_eye_zero',0,1509388118904384,'2.035743061682168'),
-	('xper_left_iscan_eye_zero',1,1509388118904384,'-2.2474032955862535'),
-	('xper_right_iscan_eye_zero',0,1509388118904384,'2.035743061682168'),
-	('xper_right_iscan_eye_zero',1,1509388118904384,'-2.2474032955862535');
+	('xper_fixation_sync_channel',0,1097000000000400,'1'),
+	('xper_fixation_sync_channel_reference',0,1097000000000400,'common'),
+	('xper_fixation_sync_high_volt',0,1097000000000400,'4');
 
 /*!40000 ALTER TABLE `systemvar` ENABLE KEYS */;
 UNLOCK TABLES;
